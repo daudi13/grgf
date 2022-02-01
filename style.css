@@ -119,9 +119,9 @@ title.box{
 
 .line, .dash {
 	height: 2px;
-	width: 17px;
+	width: 27px;
 	background-color: orange;
-	margin: 0 auto 30px;
+	margin: 5px auto 30px;
 }
 
 .program-card{
