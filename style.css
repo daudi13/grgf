@@ -28,6 +28,7 @@ body {
 }
 
 .close-btn.active {
+	display: block;
 	position: fixed;
 	top: 20px;
 	right: 20px;
@@ -47,7 +48,7 @@ body {
 	background-color: rgba(236, 82, 66, 0.5);
 	backdrop-filter: blur(10px);
 	z-index: 1000;
-	transition: right 0.5s ;
+	transition: right 0.5s cubic-bezier(0.6, 0, 0, 1);
 }
 
 .mobile-nav.active {
@@ -76,6 +77,7 @@ li > a {
 	color: gray;
 	cursor: pointer;
 	margin-bottom: 50px;
+	width: 10%;
 }
 
 .hero {
