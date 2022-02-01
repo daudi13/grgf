@@ -20,7 +20,6 @@ body {
 }
 
 .header {
-	width: 100%;
 	margin: 20px 30px;
 }
 
@@ -46,6 +45,10 @@ h3 {
 	background-clip: text ;
 	-webkit-background-clip: text;
 	color: transparent ;
+}
+
+.center {
+	text-align: center;
 }
 
 .light {
@@ -81,6 +84,17 @@ h3 {
 	margin-bottom: 50px;
 }
 
+.hero-contacts {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.hero-contacts > .content {
+	font-size: 13px;
+	line-height: 16px;
+	color: #313131;
+}
+
 .program {
 	background-color: #292d33;
 	color: #fff;
@@ -103,7 +117,7 @@ title.box{
 	position: relative;
 }
 
-.line {
+.line, .dash {
 	height: 2px;
 	width: 17px;
 	background-color: orange;
@@ -136,6 +150,74 @@ title.box{
 	width: 60%;
 }
 
+.about-logo {
+	margin: 0 30px;
+}
+
+.about-title {
+	font-size: 22px;
+}
+
+.about-logo--desc {
+	font-size: 12px;
+	line-height: 16px;
+	color: #272a31;
+	margin-top: 10px;
+}
+
+.about-logo > img {
+	height: 250px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.past {
+	margin: 0 30px;
+}
+
+.heroDesc {
+	font-size: 12px;
+	line-height: 20px;
+	color: #272a31;
+}
+
+.image-box {
+	margin: 20px 0;
+}
+
+.image-box > * + * {
+	margin-top: 30px;
+}
+
+.box-1 {
+	background-image: url('./images/fredrick-tendong-HVYepJYeHdQ-unsplash.jpg');
+}
+
+.box-2 {
+	background-image: url('./images/florian-olivo-Mf23RF8xArY-unsplash.jpg');
+}
+
+.box-1, .box-2 {
+	position: relative;
+	height: 180px;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(236, 82, 66, 0.2);
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
 .content > p {
 	font-size: 14px;
 }
@@ -160,7 +242,7 @@ title.box{
 }
 
 .speaker-container {
-	margin: 0 30px;
+	margin: 37px 30px;
 }
 
 .speaker-box > * + * {
@@ -177,12 +259,20 @@ title.box{
 }
 
 .speaker-content > img {
-	height: 90px;
+	height: 100px;
 	position: relative;
 }
 
+.speaker-content > .small-card {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background-color: #2b2b2b;
+	transform: translateY(-35px);
+}
+
 .speaker-desc > .speaker-name {
-	font-size: 20px;
+	font-size: 18px;
 	color: #2b2b2b;
 	font-weight: 700;
 	line-height: 27px;
@@ -198,5 +288,53 @@ title.box{
 .speaker-desc > .speaker-bio {
 	font-size: 11px;
 	color: #2b2b2b;
+}
+
+.footer-partners {
+	background-color: #272a31;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-partners > .footer-title {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.footer-partners > .icons {
+	margin: 30px;
+}
+
+.footer-partners > .icons > i {
+	font-size: 65px;
+	color: #5f5f5f;
+}
+
+.footer-partners > .icons > i + i {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.footer-copyright {
+	display: flex;
+	align-items: center;
+	width: 95%;
+	justify-content: space-between;
+	margin: 20px auto;
+}
+
+.footer-copyright > * + * {
+	margin-left: 30px;
+}
+
+.footer-copyright > .footer-logo > img {
+	height: 110px;
+}
+
+.footer-copyright > .copyright {
+	width: 50%;
+	font-size: 12px;
+	color: #5f5f5f;
 }
 
