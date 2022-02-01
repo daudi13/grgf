@@ -23,6 +23,54 @@ body {
 	margin: 20px 30px;
 }
 
+.close-btn {
+	display: none;
+}
+
+.close-btn.active {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	font-size: 40px;
+	z-index: 10000;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.mobile-nav{
+	position: fixed;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(236, 82, 66, 0.5);
+	backdrop-filter: blur(10px);
+	z-index: 1000;
+	transition: right 0.5s ;
+}
+
+.mobile-nav.active {
+	right: 0;
+}
+
+.nav-bar-mobile {
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 5rem;
+	list-style: none;
+}
+
+li > a {
+	text-decoration: none;
+	color: #ffff;
+	font-size: 22px;
+	font-weight: 700;
+}
+
 .header > .header-btn{
 	font-size: 30px;
 	color: gray;
