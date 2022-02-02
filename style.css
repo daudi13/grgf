@@ -292,8 +292,10 @@ title.box{
 }
 
 .program-box > .btn-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
-	text-align: center;
 }
 
 .btn-container > button {
@@ -301,7 +303,7 @@ title.box{
 	border: none;
 	color: #fff;
 	background: #ec5242;
-	margin: 30px 0;
+	margin: 30px auto !important;
 	font-weight: 700;
 }
 
@@ -524,7 +526,8 @@ title.box{
 	}
 
 	.program {
-		padding-bottom: 20px;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 
 	.program > .program-box {
@@ -536,7 +539,6 @@ title.box{
 
 	.program-card {
 		height: 220px;
-		padding: 30px 10px;
 	}
 
 	.program-box > .program-card + .program-card {
@@ -547,10 +549,13 @@ title.box{
 	.program-card {
 		flex-direction: column;
 		text-align: center;
+		justify-content: center;
 	}
 
+	.program-card > * + * { margin-top: 12px;}
+
 	.program-card > .content > p {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	.program-card > .content, p .icon {
