@@ -1,9 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+
+
+# Gamers Rising Global Fevstival 2022
 
 > This is a version of an Imaginary website for a gaming festival I developed as part of my capstone project for the Microverse program module 1. The website is for an upcoming gaming festival for Gamers Rising, an extreme gaming gaming company that is having their first event in Africa here in Kenya.
 
+![screenshot](./images/screencapture.png)
 
 ## Built With
 
