@@ -159,7 +159,9 @@ h3 {
 }
 
 .program {
-	background-color: #292d33;
+	background-image: url('./images/program-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 
@@ -188,7 +190,7 @@ title.box{
 }
 
 .program-card {
-	background-color: rgba(128, 128, 128, 0.6);
+	background-color: rgba(128, 128, 128, 0.2);
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
@@ -451,7 +453,6 @@ title.box{
 		align-items: center;
 		justify-content: space-between;
 		padding: 10px 20px;
-		margin-bottom: 9rem;
 	}
 
 	.header-menu > a > .logo {
@@ -500,6 +501,8 @@ title.box{
 	.hero {
 		max-width: 1140px;
 		margin: 0 auto;
+		background-image: url('./images/header.jpg');
+		padding-top: 9rem;
 	}
 
 	.hero-title--bold {
