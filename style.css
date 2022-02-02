@@ -313,9 +313,9 @@ h2 {
   border: none;
   color: #fff;
   background: #ec5242;
-	text-align: center;
+  text-align: center;
   font-weight: 700;
-	margin: 30px;
+  margin: 30px;
 }
 
 .desktop-btn { display: none; }
