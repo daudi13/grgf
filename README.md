@@ -22,8 +22,22 @@
 
 [Live Demo Link](https://livedemo.com)
 
+ ## 🤝 Contributing
 
- Getting Started
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+### getting started
 
 #### Cloning the project
 ```
@@ -59,26 +73,20 @@ npm install --save-dev hint@6.x
 ```
 npx hint .
 
-## Authors
-
-👤 **David Ouma**
-
-- GitHub: [@daudi13](https://github.com/daudi13)
-- Twitter: [@davouma](https://twitter.com/davouma)
-- LinkedIn: [david-ouma](https://linkedin.com/in/david-ouma)
-
-
 ## 🤝 Contributing
+
+This project was put together with the help of [@Yoz21](https://github.com/Yoz21)
+
 Feel free to check the [issues page](../../issues/).
-Original design idea by Cindy Shin
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+ Acknowledgments
 
-## Acknowledgments
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
