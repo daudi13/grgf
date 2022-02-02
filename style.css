@@ -196,6 +196,12 @@ title.box {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.75s ease;
+}
+
+.program-card:hover {
+  transform: scale(0.9);
+  background-color: rgba(128, 128, 128, 0.6);
 }
 
 .program-box > .program-card + .program-card {
@@ -302,20 +308,14 @@ h2 {
   color: #ec5242;
 }
 
-.program-box > .btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 .btn-container > button {
   padding: 20px 30px;
   border: none;
   color: #fff;
   background: #ec5242;
-  margin: 30px auto !important;
+	text-align: center;
   font-weight: 700;
+	margin: 30px;
 }
 
 .desktop-btn { display: none; }
@@ -397,11 +397,18 @@ h2 {
 .footer-partners > .icons > i {
   font-size: 65px;
   color: #5f5f5f;
+  transition: all 0.55s ease;
 }
 
 .footer-partners > .icons > i + i {
   margin-left: 20px;
   margin-top: 15px;
+}
+
+.footer-partners > .icons > i:hover {
+  transform: scale(2);
+  transform: translateY(10px);
+  color: #ee930b;
 }
 
 .footer-copyright {
@@ -482,6 +489,11 @@ h2 {
   .header-menu > a > .logo {
     display: block;
     height: 90px;
+    transition: transform 0.6s ease;
+  }
+
+  .header-menu > a > .logo:hover {
+    transform: skew(5deg);
   }
 
   .header-menu > .desktop-nav {
