@@ -22,23 +22,6 @@
 
 [Live Demo Link](https://livedemo.com)
 
- ## 🤝 Contributing
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
-### getting started
-
 #### Cloning the project
 ```
 git clone  https://github.com/daudi13/devfest <Your-Build-Directory>
@@ -72,21 +55,21 @@ npm install --save-dev hint@6.x
 ##### For validation detection using Webhint Run
 ```
 npx hint .
+```
 
-## 🤝 Contributing
-
-This project was put together with the help of [@Yoz21](https://github.com/Yoz21)
+ ## 🤝 Contributing
 
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
- Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+## Acknowledgments
 
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 ## 📝 License
 
+This project is [MIT](./MIT.md) licensed.
+
+### getting started
