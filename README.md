@@ -20,7 +20,7 @@
 - EsLint
 ## Live Demo
 
-[Live Demo Link](https://daudi13.github.io/grgf/)
+[Live Demo Link](https://grgf.vercel.app/)
 
 #### Cloning the project
 ```
