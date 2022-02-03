@@ -18,9 +18,9 @@
 - Webhint
 - Stylelint
 - EsLint
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://daudi13.github.io/grgf/)
 
 #### Cloning the project
 ```
